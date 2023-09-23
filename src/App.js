@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import AppHeader from "./AppHeader";
 import AppMain from "./AppMain";
+import RoutingPage from "./RoutingPage";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className="App-content"></div>
       <AppHeader />
       <AppMain />
+      <RoutingPage />
     </div>
   );
 }
