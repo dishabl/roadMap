@@ -8,13 +8,13 @@ function AppContent() {
   return (
     <>
       <div className="App-content">
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="props" element={<Props />} />
-            <Route path="components" element={<Components />} />
-          </Routes>
-        </BrowserRouter>
+        {/* <BrowserRouter> */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="props" element={<Props />} />
+          <Route path="components" element={<Components />} />
+        </Routes>
+        {/* </BrowserRouter> */}
       </div>
     </>
   );
