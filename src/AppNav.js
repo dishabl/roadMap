@@ -1,4 +1,5 @@
 import "./App.css";
+import { Link } from "react-router-dom";
 
 function AppNav() {
   return (
@@ -6,46 +7,47 @@ function AppNav() {
       <div className="App-nav">
         <h4 className="themes">Темы:</h4>
         <div className="themes__link">
-          <a href="/components">Components</a>
+          <Link to="/components">Components</Link>
+          {/* <a href="/components">Components</a> */}
         </div>
         <div className="themes__link">
-          <a href="/props">Props</a>
+          <Link to="/props">Props</Link>
         </div>
         <div className="themes__link">
-          <a>State</a>
+          <Link>State</Link>
         </div>
         <div className="themes__link">
-          <a>Lifecycle</a>
+          <Link>Lifecycle</Link>
         </div>
         <div className="themes__link">
-          <a>Events</a>
+          <Link>Events</Link>
         </div>
         <div className="themes__link">
-          <a>Key</a>
+          <Link>Key</Link>
         </div>
         <div className="themes__link">
-          <a>Refs</a>
+          <Link>Refs</Link>
         </div>
         <div className="themes__link">
-          <a>Virtual DOM</a>
+          <Link>Virtual DOM</Link>
         </div>
         <div className="themes__link">
-          <a>Fragment</a>
+          <Link>Fragment</Link>
         </div>
         <div className="themes__link">
-          <a>React.memo</a>
+          <Link>React.memo</Link>
         </div>
         <div className="themes__link">
-          <a>useEffect</a>
+          <Link>useEffect</Link>
         </div>
         <div className="themes__link">
-          <a>Router</a>
+          <Link>Router</Link>
         </div>
         <div className="themes__link">
-          <a>Context</a>
+          <Link>Context</Link>
         </div>
         <div className="themes__link">
-          <a>Form</a>
+          <Link>Form</Link>
         </div>
       </div>
     </>
